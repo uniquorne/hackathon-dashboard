@@ -1,17 +1,17 @@
-/* custom_styles.css */
-
-/* Dropdown styles */
-.Select-control {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+/* Ensure modal has a high z-index */
+.modal-dialog {
+    z-index: 1050;
 }
 
-.Select-menu {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+/* Fix modal dimensions */
+.modal-content {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
 }
 
-.Select-option {
+/* General input and dropdown styles */
+input, select, .DateInput_input, .Select-control, .Select-menu, .Select-option {
     background-color: #ffffff !important;
     color: #000000 !important;
 }
@@ -22,19 +22,27 @@
     color: #000000 !important; /* Black text color */
 }
 
+/* Ensure the dropdown control has the correct color */
 .Select--single > .Select-control .Select-value {
     background-color: #ffffff !important;
     color: #000000 !important;
 }
 
-/* DatePickerSingle styles */
-.DateInput_input {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+/* Ensure the dropdown control border color */
+.Select.is-focused .Select-control {
+    border-color: #e6e6fa !important;
 }
 
-/* General input and dropdown styles */
-input, select {
-    background-color: #ffffff !important;
-    color: #000000 !important;
+/* Additional styles to ensure the modal does not affect page layout */
+.modal-backdrop {
+    position: absolute !important;
+}
+
+/* Fix layout shifting in Chrome and Brave */
+html, body {
+    overflow-x: hidden;
+}
+
+#data-entry-modal {
+    position: fixed !important;
 }
