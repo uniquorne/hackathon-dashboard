@@ -1,0 +1,40 @@
+/* custom_styles.css */
+
+/* Dropdown styles */
+.Select-control {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.Select-menu {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.Select-option {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Hover effect for dropdown options */
+.Select-option:hover {
+    background-color: #e6e6fa !important; /* Light lavender color */
+    color: #000000 !important; /* Black text color */
+}
+
+.Select--single > .Select-control .Select-value {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* DatePickerSingle styles */
+.DateInput_input {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* General input and dropdown styles */
+input, select {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
