@@ -6,7 +6,7 @@
 /* Fix modal dimensions */
 .modal-content {
     width: 90%;
-    max-width: 600px;
+    max-width: auto;
     margin: auto;
 }
 
@@ -46,3 +46,15 @@ html, body {
 #data-entry-modal {
     position: fixed !important;
 }
+
+.custom-datepicker {
+    font-size: 16px !important; /* Adjust font size */
+    width: 100% !important;     /* Adjust width to fit container */
+}
+
+.custom-datepicker input {
+    height: 30px !important;    /* Adjust input field height */
+    padding: 10px !important;    /* Adjust padding for better fit */
+    font-size: 16px !important; /* Adjust font size for input field */
+}
+
